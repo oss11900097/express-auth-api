@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Welcome to the Dashboard</h1>
+        <button onclick = "logout()">Logout</button>
+        <h3 id = "userCount"> Total Registered: 0</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Email address</th>
+                    <th>Login Count</th>
+                    <th>Timestamp</th>
+                    <th>Device Location</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id = 'userTableBody'></tbody>
+        </table>
+        <button onclick="location.href='register.html'">Register User</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

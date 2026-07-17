@@ -1,0 +1,92 @@
+body{
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.form-container, .dashboard-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.dashboard-container {
+    width: 90%;
+    max-width: 1000px;
+    overflow-x: auto;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button{
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#dashboardButton{
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th{
+    background-color: #007BFF;
+    color: white;
+}
+
+td button{
+    width: auto;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.edit-btn{
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn{
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
